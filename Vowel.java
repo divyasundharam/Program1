@@ -14,7 +14,7 @@ Scanner sc=new Scanner(System.in);
 		}
 		else if(s3.contains(s1))
 		{
-			System.out.print("constant");
+			System.out.print("consonant");
 		}
 		else
 		{
