@@ -10,11 +10,11 @@ Scanner sc=new Scanner(System.in);
 		String s3="bcdfghjklmnpqrstvwxyz";
 		if(s2.contains(s1))
 		{
-			System.out.print("vowel");
+			System.out.print("Vowel");
 		}
 		else if(s3.contains(s1))
 		{
-			System.out.print("consonant");
+			System.out.print("Consonant");
 		}
 		else
 		{
