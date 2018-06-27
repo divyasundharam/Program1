@@ -5,7 +5,7 @@ class Even
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
-		int a=s.nextInt();
+		int a=sc.nextInt();
 		if(a>=1&&a<=100000)
 		{
 			if(a%2==0)
