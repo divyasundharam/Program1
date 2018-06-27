@@ -10,11 +10,11 @@ Scanner sc=new Scanner(System.in);
 		{
 			if(a%2==0)
 			{
-				System.out.print("even");
+				System.out.print("Even");
 			}
 			else
 			{
-				System.out.print("odd");
+				System.out.print("Odd");
 			}
 		}
 		else
