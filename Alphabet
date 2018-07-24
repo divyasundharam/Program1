@@ -5,7 +5,8 @@ class Alpha
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
-char c=sc.next();
+String s=sc.nextLine();
+char c=s.charAt(0);
 if(Character.Letter(c))
 {
 System.out.print("Alphabet");
