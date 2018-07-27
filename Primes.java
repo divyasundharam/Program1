@@ -5,23 +5,25 @@ class Primes
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
-int a=sc.nextInt();
+int aa=sc.nextInt();
 int b=sc.nextInt();
-boolean b=true;
-for(int j=a+1;j<b;j++)
+  int a=aa+1;
+while(a<b)
 {
-for(int i=2;i<j/2;i++)
+  boolean b=false;
+for(int i=2;i<=a/2;i++)
 {
-if(j%i==0)
+if(a%i==0)
 {
-b=false;
+b=true;
 break;
 }
 }
-if(b==true)
+if(!b)
 {
-System.out.print(j);
+System.out.print(a);
 }
+a++;
 }
 }
 }
