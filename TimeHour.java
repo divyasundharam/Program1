@@ -17,6 +17,6 @@ b[i]=sc.nextInt();
 }
 int hour=Math.abs(a[0]-b[0]);
 int minute=Math.abs(a[1]-b[1]);
-System.out.print(hour+" "minute);
+System.out.print(hour+" "+minute);
 }
 }
