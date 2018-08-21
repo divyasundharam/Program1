@@ -12,8 +12,8 @@ class progression
 		int add=0;
 		for(int i=1;i<=N;i++)
 		{
-		sum=sum+A;
-		add=add+sum;
+		add=A+D;
+		A=add;
 		}
 		System.out.print(add);
 	}
