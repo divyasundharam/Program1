@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class progression
+class Progression
 {
 	public static void main(String args[])
 	{
