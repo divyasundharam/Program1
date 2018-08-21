@@ -10,11 +10,18 @@ class Progression
 		int D=sc.nextInt();
 		int sum=0;
 		int add=0;
-		for(int i=1;i<=N;i++)
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		al.add(A);
+		for(int i=1;i<N;i++)
 		{
 		add=A+D;
 		A=add;
+		al.add(A);
 		}
-		System.out.print(add);
+		for(int i=0;i<al.size();i++)
+		{
+			sum=sum+al.get(i);
+		}
+		System.out.print(sum);
 	}
 }
