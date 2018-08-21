@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class MinSorting
+class Sorting
 {
 public static void main(String args[])
 {
@@ -12,6 +12,6 @@ for(int i=0;i<n;i++)
 a[i]=sc.nextInt();
 }
 Arrays.sort(a);
-System.out.print(a[0]);
+System.out.print(a[n-1]);
 }
 }
