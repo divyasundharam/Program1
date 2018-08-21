@@ -13,7 +13,7 @@ a[i]=sc.nextInt();
 }
 for(int j=0;j<2;j++)
 {
-b[i]=sc.nextInt();
+b[j]=sc.nextInt();
 }
 int hour=Math.abs(a[0]-b[0]);
 int minute=Math.abs(a[1]-b[1]);
