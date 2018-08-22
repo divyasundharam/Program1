@@ -6,13 +6,16 @@ public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
 int a=sc.nextInt();
-int b=1,c=0;
-System.out.println(b);
+int b[]=new int[a];
+b[0]=1;
+b[1]=1;
+for(int i=2;i<a;i++)
+{
+b[i]=b[i-2]+b[i-1];
+}
 for(int i=0;i<a;i++)
 {
-b=c+b;
-c=b;
-System.out.print(b);
+System.out.println(b[i]);
 }
 }
 }
